@@ -35,15 +35,14 @@ Below are links to resources that make plotting easier for all sorts of tasks, e
 | skplot | Useful plots for ML via sklearn objects | https://scikit-plot.readthedocs.io/en/stable/index.html |
 
 ## Git
--[](https://www.datacamp.com/groups/shared_links/a67bd4dff53af4d5c056cf21a69fa1ebe41130f25be0694f49a36095873f35e2)
 
-## VS Code
+- [Git tutorial](https://www.datacamp.com/groups/shared_links/a67bd4dff53af4d5c056cf21a69fa1ebe41130f25be0694f49a36095873f35e2)
 
-- [](https://realpython.com/advanced-visual-studio-code-python/)
+## VS Code / Coding
 
-## Regex
--[](https://github.com/ziishaned/learn-regex)
--[](https://medium.com/factory-mind/regex-tutorial-a-simple-cheatsheet-by-examples-649dc1c3f285)
+- [How to easily transition from notebooks to scripting](https://medium.com/bigpanda-engineering/how-to-easily-transition-from-developing-with-jupyter-notebooks-to-python-scripts-a15530a6ca32)
+- [Advanced Visual Studio Code](https://realpython.com/advanced-visual-studio-code-python/)
+
 
 ## Colab
 
@@ -100,6 +99,8 @@ Below are some resources for association rules.
 ## Distance and Clustering
 
 - [Great Overview of Euclidean and Cosine Distances - with python code!](https://cmry.github.io/notes/euclidean-v-cosine)
+- [Combining Numeric and Categorical Data Distance Matrices](https://colab.research.google.com/drive/1uQSBCD4avqgQnW2PxBqswThKrT_HG92Y?usp=sharing)
+- [9 Distance Measures](https://towardsdatascience.com/9-distance-measures-in-data-science-918109d069fa)
 
 ## Dimensionality Reduction
 
@@ -130,21 +131,45 @@ Below are some resources for association rules.
 
 ## Text Analytics
 
--[Good discussion on Zipfs Law](https://medium.com/@_init_/using-zipfs-law-to-improve-neural-language-models-4c3d66e6d2f6)
--[TFiDF in 2020 = Experimentation is Important!](https://towardsdatascience.com/a-gentle-introduction-to-calculating-the-tf-idf-values-9e391f8a13e5)
-- [python libraries for nlp](https://towardsdatascience.com/python-libraries-for-natural-language-processing-be0e5a35dd64)
--["top" python libraries based on GH stars](https://kleiber.me/blog/2020/08/26/top-10-python-nlp-libraries-2020/)
--[Great Resource on text pre-processing use-cases](https://towardsdatascience.com/nlp-building-text-cleanup-and-preprocessing-pipeline-eba4095245a0)
--[Paper on Emoji Sentiment](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0144296)
--[If you must wordcloud: A good tutorial](https://www.datacamp.com/community/tutorials/wordcloud-python)
--[TextBlob](https://textblob.readthedocs.io/en/dev/)
--[nltk sentiment - Vader - good overview of other toolkits](https://realpython.com/python-nltk-sentiment-analysis/#using-nltks-pre-trained-sentiment-analyzer)
--[Paper: Measuring Word Significance](https://arxiv.org/pdf/1508.02297.pdf) 
-- [Gensim Word2Vec tutorial](https://radimrehurek.com/gensim/auto_examples/tutorials/run_word2vec.html) 
-- [Word Embedding Intuition](https://towardsdatascience.com/word-embeddings-intuition-and-some-maths-to-understand-end-to-end-skip-gram-model-cab57760c745) 
-- [fastText vectors - many languages](https://github.com/facebookresearch/fastText/blob/master/docs/crawl-vectors.md#models) 
-- [Document Vectors paper](https://cs.stanford.edu/~quocle/paragraph_vector.pdf)
+- [Working with Text in Scikit-Learn](https://scikit-learn.org/stable/tutorial/text_analytics/working_with_text_data.html#working-with-text-data)
 
+- [Good discussion on Zipfs Law](https://medium.com/@_init_/using-zipfs-law-to-improve-neural-language-models-4c3d66e6d2f6)
+
+- [TFiDF in 2020 = Experimentation is Important!](https://towardsdatascience.com/a-gentle-introduction-to-calculating-the-tf-idf-values-9e391f8a13e5)
+
+- [python libraries for nlp](https://towardsdatascience.com/python-libraries-for-natural-language-processing-be0e5a35dd64)
+
+- ["top" python libraries based on GH stars](https://kleiber.me/blog/2020/08/26/top-10-python-nlp-libraries-2020/)
+
+- [Great Resource on text pre-processing use-cases](https://towardsdatascience.com/nlp-building-text-cleanup-and-preprocessing-pipeline-eba4095245a0)
+
+- [Paper on Emoji Sentiment](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0144296)
+
+- [If you must wordcloud: A good tutorial](https://www.datacamp.com/community/tutorials/wordcloud-python)
+
+- [TextBlob](https://textblob.readthedocs.io/en/dev/)
+
+- [nltk sentiment - Vader - good overview of other toolkits](https://realpython.com/python-nltk-sentiment-analysis/#using-nltks-pre-trained-sentiment-analyzer)
+
+- [Paper: Measuring Word Significance](https://arxiv.org/pdf/1508.02297.pdf) 
+
+- [Gensim Word2Vec tutorial](https://radimrehurek.com/gensim/auto_examples/tutorials/run_word2vec.html) 
+
+- [Word Embedding Intuition](https://towardsdatascience.com/word-embeddings-intuition-and-some-maths-to-understand-end-to-end-skip-gram-model-cab57760c745)
+
+- [fastText vectors - many languages](https://github.com/facebookresearch/fastText/blob/master/docs/crawl-vectors.md#models) 
+
+- [Document Vectors paper](https://cs.stanford.edu/~quocle/paragraph_vector.pdf)
+- [Keyword/Topic Extraction](https://towardsdatascience.com/keyword-extraction-methods-the-overview-35557350f8bb)
+
+## spacy
+
+- [spacy 101](https://spacy.io/usage/spacy-101/)
+- [spacy stopwords - SO but great examples](https://stackoverflow.com/questions/41170726/add-remove-custom-stop-words-with-spacy)
+- [advanced Nlp with spacy](https://course.spacy.io/en/)
+- [Advanced Rule-based Matching with spacy](https://pub.towardsai.net/rule-based-matching-for-nlp-using-spacy-491f148fd4fb)
+- [How we use Entity Extraction to improve Customer Service Calls](https://medium.com/observe-ai-engineering-blog/how-we-use-entity-extraction-to-improve-compliance-in-call-centers-e5bbca14fc03)
+- [NER and Grade Level Post - Medium](https://towardsdatascience.com/explorations-in-named-entity-recognition-and-was-eleanor-roosevelt-right-671271117218)
 
 ## Scikit Resources
 
@@ -159,5 +184,5 @@ Below are some resources for association rules.
 - [Rasa example,detailed NLU file](https://github.com/RasaHQ/rasa-demo/blob/main/data/nlu/nlu.yml) 
 - [Rasa visualization tools](https://github.com/RasaHQ/rasalit) 
 - [Visualize Rasa in notebooks](https://blog.rasa.com/evaluating-rasa-nlu-models-in-jupyter/) 
-- [fastText with spacy and rasa][https://medium.com/@expanded_blue_elk_810rasa-loading-fasttext-vectors-with-spacy-1aad2a2431b] 
+- [fastText with spacy and rasa](https://medium.com/@expanded_blue_elk_810rasa-loading-fasttext-vectors-with-spacy-1aad2a2431b)
   
